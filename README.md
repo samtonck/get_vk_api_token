@@ -3,7 +3,7 @@
 ---
 
 Если какая-то ручка в API VK с пометкой `Этот метод можно вызвать с ключом доступа пользователя.`
-например [video > video.get](https://dev.vk.com/ru/method/video.get)
+#### например [video > video.get](https://dev.vk.com/ru/method/video.get)
 ![image](https://github.com/user-attachments/assets/6aca116f-a2f6-482b-bf18-1ab62b9b71ad)
 
 ## этот самый токен (он же ключ) можно получить за считаные секунды с помощью скрипта
@@ -47,7 +47,7 @@ python app.py
 
 ![image](https://github.com/user-attachments/assets/5ef09e27-dc65-40b6-9816-ae4ee7025090)
 
-после завершения авторизации быдет получен токен который можно скопировать через кнопку
+после завершения авторизации будет получен токен, который можно скопировать через кнопку "Скопировать"
 
 ![image](https://github.com/user-attachments/assets/1b813620-c790-42bf-82a2-5439f46bc147)
 
