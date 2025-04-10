@@ -35,8 +35,38 @@ def auth():
         }
 
         redirect_uri = 'http://localhost/api/v1/auth/vk/callback'
-        scopes = 'notify,friends,photos,audio,video,docs,notes,pages,status,offers,questions,wall,groups,messages,email,notifications,stats,ads,market,offline'
-        auth_url = f"https://oauth.vk.com/authorize?client_id={client_id}&display=page&redirect_uri={redirect_uri}&scope={scopes}&response_type=code&v=5.131&state={session_id}"
+        scopes = (
+            'notify,'
+            'friends,'
+            'photos,'
+            'audio,'
+            'video,'
+            'docs,'
+            'notes,'
+            'pages,'
+            'status,'
+            'offers,'
+            'questions,'
+            'wall,'
+            'groups,'
+            'messages,'
+            'email,'
+            'notifications,'
+            'stats,'
+            'ads,'
+            'market,'
+            'offline'
+        )
+        auth_url = (
+            f"https://oauth.vk.com/authorize"
+            f"?client_id={client_id}"
+            f"&display=page"
+            f"&redirect_uri={redirect_uri}"
+            f"&scope={scopes}"
+            f"&response_type=code"
+            f"&v=5.131"
+            f"&state={session_id}"
+        )
 
         response = make_response(redirect(auth_url))
         response.set_cookie('vk_session_id', session_id)
