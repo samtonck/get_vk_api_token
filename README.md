@@ -31,7 +31,7 @@ python app.py
 ![image](https://github.com/user-attachments/assets/dabf75f7-78c6-48e0-ab05-4bf83db37a53)
 
 # *ВАЖНО так же не забудьте, (если требуется) открыть расширеные доступы на странице доступов, например "Видеозаписи"*
-по умолчанию в файле ![app.py](https://github.com/samtonck/get_vk_api_token/blob/main/app.py) прописаны все виды доступов 
+по умолчанию в файле [app.py](https://github.com/samtonck/get_vk_api_token/blob/main/app.py) прописаны все виды доступов 
 ```
 scopes = 'notify,friends,photos,audio,video,docs,notes,pages,status,offers,questions,wall,groups,messages,email,notifications,stats,ads,market,offline'
 ```
