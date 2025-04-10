@@ -17,8 +17,8 @@ python app.py
 ---
 
 Для получения токена понадобится 
-1)ID приложения
-2)Защищённый ключ
+*1)ID приложения
+*2)Защищённый ключ
 
 
 *)Доверенный Redirect URL = http://localhost/api/v1/auth/vk/callback
