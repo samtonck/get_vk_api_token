@@ -22,9 +22,15 @@ python app.py
 ###### 2)Защищённый ключ
 
 
-###### * - Доверенный Redirect URL = http://localhost/api/v1/auth/vk/callback
+###### * - Доверенный Redirect URL = `http://localhost/api/v1/auth/vk/callback`
 ![image](https://github.com/user-attachments/assets/dabf75f7-78c6-48e0-ab05-4bf83db37a53)
 
 так же не забудьте если требуется открыть расширеные доступы на странице доступов например Видеозаписи
+
+---
+после завершения быдет получен токен который можно скопировать через кнопку
+
+![image](https://github.com/user-attachments/assets/1b813620-c790-42bf-82a2-5439f46bc147)
+
 
 ---
