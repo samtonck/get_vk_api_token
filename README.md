@@ -2,7 +2,7 @@
 
 перед запуском необходимо установить зависимости
 ```
-pip install flask requests
+pip install -r requirements.txt
 ```
 
 запуск осуществляется командой
