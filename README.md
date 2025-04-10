@@ -1,9 +1,5 @@
 # get_vk_api_token
 
-![image](https://github.com/user-attachments/assets/5ef09e27-dc65-40b6-9816-ae4ee7025090)
-
----
-
 перед запуском необходимо установить зависимости
 ```
 pip install flask requests
@@ -13,6 +9,15 @@ pip install flask requests
 ```
 python app.py
 ```
+
+---
+
+![image](https://github.com/user-attachments/assets/5ef09e27-dc65-40b6-9816-ae4ee7025090)
+
+после завершения авторизации быдет получен токен который можно скопировать через кнопку
+
+![image](https://github.com/user-attachments/assets/1b813620-c790-42bf-82a2-5439f46bc147)
+
 
 ---
 
@@ -28,9 +33,4 @@ python app.py
 так же не забудьте если требуется открыть расширеные доступы на странице доступов например Видеозаписи
 
 ---
-после завершения быдет получен токен который можно скопировать через кнопку
-
-![image](https://github.com/user-attachments/assets/1b813620-c790-42bf-82a2-5439f46bc147)
-
-
 ---
