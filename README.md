@@ -21,14 +21,16 @@
 # *ВАЖНО так же не забудьте, (если требуется) открыть расширеные доступы на странице доступов* 
 
 напримерв нашем случае нужно включить "Видеозаписи"
-по умолчанию в файле [app.py](https://github.com/samtonck/get_vk_api_token/blob/main/app.py#L38) прописаны все виды доступов 
-```
-scopes = 'notify,friends,photos,audio,video,docs,notes,pages,status,offers,questions,wall,groups,messages,email,notifications,stats,ads,market,offline'
-```
 ![image](https://github.com/user-attachments/assets/3a9694f4-2c10-4bc4-9101-4844f3beb059)
 
 
 ---
+
+по умолчанию в файле [app.py](https://github.com/samtonck/get_vk_api_token/blob/main/app.py#L38) прописаны все виды доступов 
+```
+scopes = 'notify,friends,photos,audio,video,docs,notes,pages,status,offers,questions,wall,groups,messages,email,notifications,stats,ads,market,offline'
+```
+
 ---
 
 перед запуском необходимо установить зависимости
