@@ -18,7 +18,9 @@
 ###### * - Доверенный Redirect URL = `http://localhost/api/v1/auth/vk/callback`
 ![image](https://github.com/user-attachments/assets/dabf75f7-78c6-48e0-ab05-4bf83db37a53)
 
-# *ВАЖНО так же не забудьте, (если требуется) открыть расширеные доступы на странице доступов, например "Видеозаписи"*
+# *ВАЖНО так же не забудьте, (если требуется) открыть расширеные доступы на странице доступов* 
+
+напримерв нашем случае нужно включить "Видеозаписи"
 по умолчанию в файле [app.py](https://github.com/samtonck/get_vk_api_token/blob/main/app.py#L38) прописаны все виды доступов 
 ```
 scopes = 'notify,friends,photos,audio,video,docs,notes,pages,status,offers,questions,wall,groups,messages,email,notifications,stats,ads,market,offline'
