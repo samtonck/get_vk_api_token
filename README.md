@@ -43,6 +43,11 @@ pip install -r requirements.txt
 python app.py
 ```
 
+перейти по адресу
+```
+http://localhost/auth
+```
+
 ---
 
 ![image](https://github.com/user-attachments/assets/5ef09e27-dc65-40b6-9816-ae4ee7025090)
